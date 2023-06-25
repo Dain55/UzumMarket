@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/sass/header.scss">
+  <link rel="stylesheet" href="/sass/style.scss">
+  <link rel="stylesheet" href="/sass/elementID.scss">
+  <link rel="stylesheet" href="/sass/swiper.scss">
+  <link rel="stylesheet" href="./font/stylesheet.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <title>document</title>
+</head>
+<body>
+  
+   
+  <div class="All-header"></div>
+  <div class="container">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="https://images.uzum.uz/cfqov5nhj8j9g69850s0/main_page_banner.jpg"></div>
+        <div class="swiper-slide"><img src="https://images.uzum.uz/cfqp0u7hj8j9g69850v0/main_page_banner.jpg"></div>
+        <div class="swiper-slide"><img src="https://images.uzum.uz/cfqp4a7hj8j9g6985190/main_page_banner.jpg"></div>
+        <div class="swiper-slide"><img src="https://images.uzum.uz/cfqp3fvhgiov1qicmi80/main_page_banner.jpg"></div>
+        <div class="swiper-slide"><img src="https://images.uzum.uz/cfqp64vhj8j9g69851d0/main_page_banner.jpg"></div>
+        <div class="swiper-slide"><img src="https://images.uzum.uz/cfqp2cvg49devoa8qseg/main_page_banner.jpg"></div>
+        <div class="swiper-slide"><img src="https://images.uzum.uz/cfqp7t7hj8j9g69851ig/main_page_banner.jpg"></div>
+        <div class="swiper-slide"><img src="https://images.uzum.uz/cehgelqvtie1lhbf9upg/main_page_banner.jpg"></div>
+        <div class="swiper-slide"><img src="https://images.uzum.uz/ceo2mlavtie1lhbg5h40/main_page_banner.jpg"></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+     <div class="items">
+      <h1>Рекомедация</h1>
+      <div class="div-item">
+      </div>
+     </div>
+    </div>
+
+  <div class="bg-end">
+    
+  </div>
+  <script type="module" src="/modules/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });</script>
+</body>
+
+
+</html>
