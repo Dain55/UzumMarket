@@ -1,0 +1,20 @@
+.div-item {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.div-img img{
+width: 230px;
+height: 300px;
+border-radius: 20px;
+border: 2px solid gray;
+}
+.div-price{
+    margin: 30px 0px;
+}
+.box{
+    cursor: pointer;
+}

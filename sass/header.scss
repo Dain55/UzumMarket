@@ -1,0 +1,133 @@
+.single-header {
+    background-color: #F4F5F5;
+    max-width: 100%;
+    height: 30px;
+    padding: 5px 0px;
+    margin: 0 auto;
+}
+
+.header-box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.img {
+    display: flex;
+    gap: 5px;
+}
+
+.header-text {
+    display: flex;
+    gap: 20px;
+}
+
+.header-language {
+    display: flex;
+    gap: 10px;
+}
+
+.header-language img {
+    border-radius: 50px;
+}
+
+
+.header-logo {
+    padding: 5px 0px;
+    margin: 0 auto;
+}
+
+.header-catalogy {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0px;
+}
+
+.button-catalogy {
+    display: flex;
+    background: rgba(49, 49, 196, 0.1);
+    border-radius: 4px;
+    width: 110px;
+    height: 40px;
+}
+
+.button-catalogy img {
+    padding: 10px 5px;
+}
+
+.button-catalogy p {
+    padding: 10px 0px;
+    color: #3333CC;
+}
+
+
+.div-search {
+    display: flex;
+}
+
+.search {
+    width: 496px;
+    height: 40px;
+    padding: 0px 10px;
+}
+
+.button-search {
+    background: rgba(118, 121, 127, 0.05);
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid black;
+    width: 74px;
+    height: 40px;
+    padding: 10px 26px;
+}
+
+
+.all-button-header {
+    display: flex;
+    padding: 5px 0px;
+    gap: 20px;
+}
+
+.div-login {
+    display: flex;
+}
+
+.div-login img {
+    height: 30px;
+}
+
+.div-login p {
+    padding: 5px 0px;
+}
+
+
+.div-heart {
+    display: flex;
+}
+
+.div-heart img {
+    height: 40px;
+}
+
+.div-heart p {
+    padding: 5px 0px;
+}
+
+.div-shop {
+    display: flex;
+}
+
+.div-shop img {
+    height: 30px;
+}
+
+.div-shop p {
+    padding: 5px 0px;
+}
+
+.header-catalogy-decoret {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 13.3px;
+}

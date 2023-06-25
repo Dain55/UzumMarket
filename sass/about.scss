@@ -1,0 +1,34 @@
+.header-it{
+    display: flex;
+    gap: 30px;
+    .box_div img{
+        height: 530px;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+    .money{
+        margin: 50px 0px;
+    }
+    .box-btn{
+        display: flex;
+        gap: 20px;
+        margin: 30px 0px;
+        .purple{
+            background-color: #7000FF;
+            color: white;
+            border: solid transparent;
+            width: 298.8px;
+            height: 56px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .white{
+            background-color:transparent;
+            border: 1px solid black;
+            width: 298.8px;
+            height: 56px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    }
+}
